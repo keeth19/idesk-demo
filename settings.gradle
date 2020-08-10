@@ -1,0 +1,3 @@
+include ':CountryCode'
+include ':app'
+rootProject.name = "IDeskDemo"
