@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168696638191",
+    "firebase_url": "https://ideskdemo-4d5bb.firebaseio.com",
+    "project_id": "ideskdemo-4d5bb",
+    "storage_bucket": "ideskdemo-4d5bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168696638191:android:f43b24560ec1ed2a12891a",
+        "android_client_info": {
+          "package_name": "com.example.ideskdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168696638191-shv0rieg2kr83nifkaqq3mi5dm8jlh05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7mglE70KfkrGsncq_O9jQWO7DyLg5XKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168696638191-shv0rieg2kr83nifkaqq3mi5dm8jlh05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

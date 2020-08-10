@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/feeds"
+        android:title="Share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/friends"
+        android:title="Add To Favourite"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        tools:targetApi="o" />
+    <item
+        android:id="@+id/friends_fill"
+        android:title="Add To Favourite"
+        android:icon="@drawable/ic_baseline_favourite_fill"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:visible="false"
+        tools:targetApi="o" />
+    <item
+        android:id="@+id/about"
+        android:title="Report"
+        android:icon="@android:drawable/stat_sys_warning"
+        app:showAsAction="always"/>
+</menu>

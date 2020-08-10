@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_google"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/icon_finder_google"
+        android:title="@string/google"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:icon="@drawable/icon_finder_facebook"
+        android:title="@string/facebook"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_twitter"
+        android:enabled="true"
+        android:icon="@drawable/icon_finder_twitter"
+        android:title="@string/twitter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_yahoo"
+        android:enabled="true"
+        android:icon="@drawable/icon_finder_yahoo"
+        android:title="@string/yahoo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_ms"
+        android:enabled="true"
+        android:icon="@drawable/icon_finder_microsoft"
+        android:title="@string/microsoft"
+        app:showAsAction="always" />
+
+</menu>

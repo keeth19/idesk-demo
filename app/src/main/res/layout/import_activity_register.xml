@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/register_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:padding="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#00FFFFFF"
+        android:weightSum="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.17">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/username"
+                android:layout_gravity="center"
+                android:tint="@color/colorPrimary"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:layout_marginEnd="10dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorBlack"
+                android:id="@+id/register_display_name">
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTint="@color/md_white_1000"
+                    android:textColor="@color/colorBlack"
+                    android:hint="@string/user_name"
+                    android:inputType="text"
+                    tools:targetApi="m"
+                    android:importantForAutofill="no" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/email"
+                android:tint="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:layout_marginEnd="10dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorBlack"
+                android:id="@+id/register_email">
+
+                <EditText
+                    android:id="@+id/et_reg_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/email_address"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="textEmailAddress"
+                    tools:targetApi="m"
+                    android:importantForAutofill="no" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/user_phone"
+                android:tint="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:layout_marginEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/flag_imv"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/todo" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etCountryCode"
+                    android:layout_margin="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="@string/code"
+                    android:foregroundTint="@color/md_black_1000"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlack"
+                    android:foregroundTintMode="screen"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    tools:targetApi="lollipop"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true" />
+
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorBlack"
+                android:id="@+id/reg_phone">
+
+                <EditText
+                    android:id="@+id/et_reg_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="@color/colorPrimary"
+                    android:textColor="@color/colorBlack"
+                    android:hint="@string/phone"
+                    android:inputType="phone"
+                    tools:targetApi="m"
+                    android:digits="0123456789"
+                    android:maxLength="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/password"
+                android:tint="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorBlack"
+                app:passwordToggleTint="@color/colorBlack"
+                app:passwordToggleEnabled="true"
+                android:id="@+id/reg_password">
+
+                <EditText
+                    android:id="@+id/et_reg_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="@color/colorBlack"
+                    android:textColor="@color/colorBlack"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reg_create_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/create_account"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/et_device_model"
+            android:layout_width="260dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/et_reg_phone"
+            android:layout_centerHorizontal="true"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_device_os"
+            android:layout_width="260dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/et_device_model"
+            android:layout_centerHorizontal="true"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>

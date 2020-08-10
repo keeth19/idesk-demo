@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">IDeskDemo</string>
+
+    <string name="user_preference_language" translatable="false">language_title</string>
+    <string name="user_language" translatable="false">language</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="google" translatable="false">Google</string>
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="twitter" translatable="false">Twitter</string>
+    <string name="yahoo" translatable="false">Yahoo</string>
+    <string name="microsoft" translatable="false">Microsoft</string>
+    <string name="rahul_agrawal_is_a_good_boy_but_he_does_not_know_what_he_wants" translatable="false">Rahul Agrawal is a good boy but he does not know what he wants.</string>
+    <string name="user_preference_singin" translatable="false">siging status tittle</string>
+    <string name="initial_preference_singin" translatable="false">initial status tittle</string>
+    <string name="user_preference_language_select" translatable="false">language status tittle</string>
+    <string name="user_singin" translatable="false">singin status</string>
+    <string name="initial_singin" translatable="false">initial status</string>
+    <string name="user_language_select" translatable="false">language status</string>
+    <string name="notification_channel_id" translatable="false">default</string>
+    <string name="sharedPreference" translatable="false">MyPrefs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="need_a_new_account">NEED A NEW ACCOUNT ?</string>
+    <string name="video_call">Video Call</string>
+    <string name="call">Call</string>
+    <string name="view_contact">View Contact</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="media">Media</string>
+    <string name="search">Search</string>
+    <string name="mute">Mute</string>
+    <string name="more">More</string>
+    <string name="advertisement_topic">Advertisement Topic</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="date">date</string>
+    <string name="location">Grade</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="type">Type</string>
+    <string name="type_names">Type names</string>
+    <string name="per_quantity">Per Quantity</string>
+    <string name="price">Price</string>
+    <string name="total_quantity">Total Quantity</string>
+    <string name="additional_details">Additional Details</string>
+    <string name="no_rating_found">No Rating Found</string>
+    <string name="be_the_first_one_rate_this_add">Be the First one Rate this Add</string>
+    <string name="add_rate_here">Add Rate Here</string>
+    <string name="add_rate_count">4.3</string>
+    <string name="rating_comments">Rating Comments</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="verified">Pending Email Verification..</string>
+    <string name="verifiedShow">Email Verified</string>
+    <string name="last_login">Last Login</string>
+    <string name="similar_add">Similar Advertisement</string>
+    <string name="search_here">Search Here</string>
+    <string name="choose_your_category">Choose your Category</string>
+    <string name="pick_your_location">Pick your Location</string>
+    <string name="district">District</string>
+    <string name="district_name">District Name</string>
+    <string name="search_now">Search Now</string>
+    <string name="next">Next</string>
+    <string name="preview">Preview</string>
+    <string name="advertisement_type">Advertisement Type</string>
+    <string name="user_information">User Information</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="term_and_condition">Term and Condition</string>
+    <string name="publish_advertisement">Publish Advertisement</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="phone">Phone</string>
+    <string name="account_type">Account Type</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="sold_ads">Sold Ads</string>
+    <string name="all_ads">All Ads</string>
+    <string name="inactive_ads">Inactive Ads</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="or">OR</string>
+    <string name="email">Email</string>
+    <string name="individual">Individual</string>
+    <string name="package_type">School</string>
+    <string name="free">Free</string>
+    <string name="no_of_simple_ads">Class</string>
+    <string name="no_of_featured_ads">Attends</string>
+    <string name="expired_date">Expired Date</string>
+    <string name="user_name">User Name</string>
+    <string name="code">Code</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="select_your_language">Select your language</string>
+    <string name="english">English</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="sinhalese">සිංහල</string>
+    <string name="already_have_account">ALREADY HAVE ACCOUNT</string>
+    <string name="view_all">View All</string>
+    <string name="display_name">Display Name</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="chat">Chat</string>
+    <string name="calls">Calls</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="special_advertising">Special Advertising</string>
+    <string name="sms">SMS</string>
+    <string name="favorite_advertisement">Favorite Advertisement</string>
+    <string name="my_advertisement">My Advertisement</string>
+    <string name="logout">Logout</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="input_error_name">Name Required</string>
+    <string name="input_error_email">Email Required</string>
+    <string name="input_error_password">Password Required</string>
+    <string name="input_error_phone">Phone Number Required</string>
+    <string name="input_error_password_length">Password should be at least 6 Characters Long</string>
+    <string name="input_error_phone_invalid">Enter a valid Phone Number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="advertisement_success">Advertisement Successfully</string>
+    <string name="updating_success">Updated Successfully</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="error_login">Check Your Email or Password is Correct</string>
+    <string name="progressbar_loginTitle">Login Now!</string>
+    <string name="progressbar_registerTitle">Register Now!</string>
+    <string name="progressbar_message">Please wait, While checking the Credentials!..</string>
+    <string name="progressbar_adTitle">Advertisement Adding!</string>
+    <string name="progressbar_adMessage">Please wait, While Post the Advertisement!..</string>
+    <string name="error">Error !</string>
+    <string name="input_error_email_invalid">Enter a Valid Email</string>
+    <string name="input_error_location">Location Required</string>
+    <string name="input_error_introduction">Introduction Required</string>
+
+
+
+    <string name="login_first">PLEASE LOGIN FIRST</string>
+    <string name="contact_added_successfully">Contact Added Successfully </string>
+    <string name="topic_required">Topic Required</string>
+    <string name="price_required">Price Required</string>
+    <string name="per_quentity_required">Per Quantity Required</string>
+    <string name="total_quentity_required">Total Quantity Required</string>
+    <string name="description_required">Description Required</string>
+    <string name="name_required">Name Required</string>
+    <string name="address_required">Address Required</string>
+    <string name="accept_the_terms_and_conditions">Accept the terms and conditions</string>
+    <string name="you_have_to_upgrade_your_package">You have to upgrade your package</string>
+    <string name="uploading">Uploading...</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="failed">Failed</string>
+    <string name="please_add_package">Please add package</string>
+    <string name="verification_email_has_been_sent.">Verification Email Has been Sent.</string>
+    <string name="verification_email_not_sent"> Verification Email not sent</string>
+
+    <string name="error_invalid_email">                 This email address is invalid. </string>
+    <string name="error_title_auth">                    Property Authentication failed </string>
+    <string name="error_title_add_property">            Add Property failed </string>
+    <string name="error_incorrect_password">            The user credentials were incorrect. </string>
+    <string name="error_incorrect_password_legnth">     The password too short. </string>
+    <string name="error_field_required">                This field is required. </string>
+    <string name="menu_action_toogle_activity">toogle</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+
+    <string name="progress_message">    Please wait… </string>
+
+    <string name="dialog_back_message">          Press again to exit. </string>
+
+    <string name="network_message">         Please check your internet connection and try again. </string>
+    <string name="network_offline_message"> RETRY </string>
+
+    <string name="search_hint">Search</string>
+
+
+    <string name="attendance">Attendance</string>
+    <string name="marks">Marks</string>
+    <string name="schedule">Schedule</string>
+    <string name="switch_to_parent">Switch To Parent</string>
+    <string name="class_or_Student">"Class / Student "</string>
+    <string name="notification">Notification</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="payments">Payments</string>
+    <string name="upload_files">Upload Files</string>
+    <string name="substitute_assignment">Substitute Assignment</string>
+    <string name="setting">Setting</string>
+    <string name="children_wall">Children Wall</string>
+
+
+    <!--Api Urls-->
+
+    <string name="dev_idesk_bas_url">http://dev.idesk.lk:3000/</string>
+
+    <string name="dev_idesk_singin_url">api/auth/signin</string>
+    <string name="dev_idesk_grade_view_all">api/grade/viewall</string>
+    <string name="dev_idesk_get_school">api/school</string>
+    <string name="dev_idesk_get_profile">api/auth/profile/</string>
+
+
+    <string name="http_failed_message">"It looks like something has gone wrong. Please try again. "</string>
+
+
+    <string name="authToken_preference_tittle">authToken_title</string>
+    <string name="authToken_preference">authToken</string>
+
+
+
+    <string-array name="user_type">
+        <item>select user type</item>
+        <item>Principal</item>
+        <item>Teacher</item>
+        <item>Student</item>
+
+    </string-array>
+
+    <string-array name="school">
+        <item>select school</item>
+        <item>Mahajana College</item>
+        <item>Stanley College</item>
+        <item>Union College</item>
+        <item>Central College</item>
+        <item>Ananda College</item>
+        <item>Hartly College</item>
+        <item>Hindu College</item>
+
+    </string-array>
+
+    <string-array name="grade">
+        <item>select grade</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+
+    </string-array>
+
+    <string-array name="classs">
+        <item>select class</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+
+    </string-array>
+
+</resources>
